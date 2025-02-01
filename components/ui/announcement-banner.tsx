@@ -1,9 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
-const AnnouncementBanner: React.FC<{}> = ({}) => {
+const AnnouncementBanner = () => {
   const [isVisible, setIsVisible] = useState(true);
 
   if (!isVisible) return null;
